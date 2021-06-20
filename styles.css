@@ -34,4 +34,5 @@ html, body {
 #img {
     border-radius: 1em;
     border: 3px solid;
+    cursor: pointer;
 }
