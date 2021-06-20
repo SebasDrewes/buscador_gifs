@@ -2,80 +2,39 @@ html, body {
     min-height: 100%;
     font-family: Arial;
     margin: 0;
-    background: linear-gradient(#dff7ff, #ddfce4);
-}
-@keyframes fadeIn {
-    from { opacity: 0; }
-      to { opacity: 1; }
+    background: linear-gradient(#c4cbce, #121312);
+    background-attachment: fixed;
 }
 #title {
+    text-align:center;
+    font-size: 2em;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#searchBar {
     text-align: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.container {
-    position: relative;
-    margin: auto;
-    width: 80vw;
-    height: 70vh;
-    border-radius: 2em;
-}
-.img {
-    width: 100%;
-    height: 100%;
-    display: none;
-    border-radius: 2em;
-    animation: fadeIn 1s;
-}
-#leftArrow {
-    position: absolute;
-    top: 40%;
-    left: 0;
-    padding: 16px;
-    color: rgb(255, 255, 255);
-    transition: background-color 0.5s ease-in-out;
-    cursor:pointer;
-}
-#leftArrow:hover {
-background-color: rgba(0, 0, 0, 0.5);
-}
-#rightArrow {
-    position: absolute;
-    top: 40%;
-    right: 0;
-    padding: 16px;
-    color: rgb(255, 255, 255);
-    cursor:pointer;
-    transition: background-color 0.5s ease-in-out;
-}
-#rightArrow:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-#firstImage {
-    display:block;
-}
-.spheresContainer {
-    position: relative;
-    display: flex;
-    margin: auto;
-    margin-top: 5vh;
-    margin-bottom: 1vh;
-    width: auto;
-    height: 5%;
-    align-items: center;
-    justify-content: center;
-}
-.sphere {
-    border: solid 1px;
-    border-radius: 50%;
-    width: 1em;
-    height: 1em;
-    margin: 1vh;
+#buscar {
+    background: rgb(221, 221, 221);
     cursor: pointer;
+    color: rgb(0, 0, 0);
 }
-.sphereClicked {
-    border: solid 1px;
-    border-radius: 50%;
-    width: 1em;
-    height: 1em;
-    margin: 1vh;
-    background-color: rgba(0, 0, 0, 0.253);
+#valor {
+    background: rgb(221, 221, 221);
+    color: rgb(0, 0, 0);
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    margin-top: 5vh;
+}
+#img {
+    border-radius: 1em;
+    border: 3px solid;
+    max-width: 40%;
+    max-height: 40%;
 }
