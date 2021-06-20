@@ -1,6 +1,6 @@
-# buscador de gits
-![image](https://user-images.githubusercontent.com/81722772/122075971-d7106680-cdd0-11eb-8894-0facd21be225.png)
+# buscador de gifs
+![image](https://user-images.githubusercontent.com/81722772/122661976-e8a59580-d165-11eb-8c9a-a1c1efe42528.png)
 
-Buscador de gifs, que consume la API giphy segun lo ingresado en el buscador.
+Simple buscador de gifs, que consume la API giphy segun lo ingresado en el buscador.
 
-Probalo! https://sebasdrewes.github.io/labrador-imageslider/
+Probalo! https://sebasdrewes.github.io/buscador_gifs/
