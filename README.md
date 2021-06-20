@@ -1,5 +1,5 @@
 # buscador de gifs
-![image](https://user-images.githubusercontent.com/81722772/122662104-d4ae6380-d166-11eb-8a6c-0ed41c0925ea.png)
+![image](https://user-images.githubusercontent.com/81722772/122682693-63f06100-d1d1-11eb-9ae8-205e61eccfa7.png)
 
 Simple buscador de gifs, que consume la API giphy segun lo ingresado en el buscador.
 
