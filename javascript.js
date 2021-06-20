@@ -19,4 +19,7 @@ const valor = document.querySelector('#valor');
 buscar.addEventListener('click', () => {
   loadImage(valor.value);
 });
+img.addEventListener('click', () => {
+  loadImage(valor.value);
+});
 window.onload = loadImage();
